@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Math 2605 Project Jacobi Algorithm</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body onload="init();main()">
+		<h1>Math 2605 Project Jacobi Algorithm</h1>
+		<form>
+			<input type="button" value="rerun the program" onclick="main()">
+			<label class="radio">
+				<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+		  		with sorting
+	  		</label>
+	  		<label class="radio">
+				<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+		  		no sorting
+	  		</label>
+  		</form>
+  		<h2>Original matrix:</h2>
+  		<table id="omat" cellpadding="5"></table>
+  		<h2>Eigenvalues:</h2>
+  		<p id="eigenvalues"></p>
+		<script type="text/javascript" src="d3.v3.js"></script>
+		<script type="text/javascript" src="code.js"></script>
+	</body>
+</html>

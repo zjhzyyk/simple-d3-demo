@@ -1,0 +1,16 @@
+line.axis, line.xTicks, line.yTicks {
+	stroke: black;
+	stroke-width: 1;
+}
+
+line.function {
+	stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+
+#cur_graph {
+	position: absolute;
+	left: 430px;
+	top: 80px;
+}
